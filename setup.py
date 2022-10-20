@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='followerauditapi',
-    version='0.0.4',
+    version='0.0.6',
     packages=['followeraudit'],
     description='Python library to access followeraudit API',
     long_description=long_description,
