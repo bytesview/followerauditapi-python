@@ -1,6 +1,6 @@
 # All the FollowerAudit supported API URL
-# BASE_URL = 'http://fauditapi.local/api/1/'
-BASE_URL='http://fauditapi.local/api/1/'
+
+BASE_URL='https://www.followeraudit.com/api/1/'
 
 # For New Newaudit
 AUDIT_URL = BASE_URL + 'newaudit'

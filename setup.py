@@ -6,12 +6,12 @@ with open("README.md", "r") as fh:
 
 setup(
     name='followerauditapi',
-    version='0.0.1',
+    version='0.0.4',
     packages=['followeraudit'],
     description='Python library to access followeraudit API',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/himanshu-git1/followerauditapi-python',
+    url='https://github.com/bytesview/followerauditapi-python',
     author='Followeraudit',
     author_email='contact@followeraudit.com',
     license='GNU V3',
@@ -27,13 +27,10 @@ setup(
         'getaudit'
         ],
     classifiers=[
-        "Development Status :: 1 - Production/Stable",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
-        "Operating System :: Microsoft :: Windows",
-        "Operating System :: Linux :: Ubuntu",
         "Intended Audience :: Customer Service",
-        "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",

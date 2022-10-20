@@ -6,7 +6,7 @@ class test_bytesviwapi(unittest.TestCase):
 
     def setUp(self):
         # your private API key.
-        key = os.environ.get("PYTEST_API_TOKEN")
+        key = os.environ.get("AUDIT_API_TOKEN")
         self.api = FauditAPIclient(key)
 
     def test_newaudit_api(self):
@@ -19,5 +19,5 @@ class test_bytesviwapi(unittest.TestCase):
 
     
     def test_getaudit_api(self):
-        response = self.api.auditstatus(audit_id='2d6c356eb3addb9159c0231d00b0c4cd')
+        response = self.api.auditstatus(audit_id='daa69a4e0a5dc4b4c0ddb3218fd479a2')
         self.assertEqual(response['status'], 'success')
