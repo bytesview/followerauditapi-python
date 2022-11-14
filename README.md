@@ -21,4 +21,4 @@ pip install followerauditapi
 
 ## Quick Start
 
-Followeraudit docs can be seen [here](https://www.followeraudit.com/).
+Followeraudit docs can be seen [here](https://www.followeraudit.com/audit-api).
